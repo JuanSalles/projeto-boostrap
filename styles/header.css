@@ -1,0 +1,68 @@
+
+@media (max-width: 767px){
+    .campo-email{
+        display: none;
+    }
+
+    .default-menu{
+        display: none !important;
+    }
+
+    .menu-hamburguer{
+        display: flex !important;
+    }
+
+    .ghost-div{
+        height: 0px !important;
+        flex-basis: 0px;
+    }
+    .borda-personalizada{
+        border: solid 1px #7f7f7f;
+    }
+}
+
+@media (min-width:768px){
+    .menu-hamburguer{
+        display: none !important;
+    }
+}
+
+body{
+    height: 100vh;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    grid-template-rows: max-content max-content max-content;
+}
+
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+}
+
+.grid-form{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.input_container{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-content: center;
+}
+.input_select{
+    width: 50%;
+}
+
+.button-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button-container .item-1{
+    grid-column: 3;
+}
+
